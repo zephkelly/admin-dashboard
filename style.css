@@ -1,6 +1,5 @@
 body {
   margin: 0rem;
-  overflow-x: hidden;
 }
 
 nav {
@@ -52,6 +51,7 @@ nav a {
 
 main {
   margin-left: 20vw;
+  background-color: rgb(217, 217, 217);
 }
 
 header {
@@ -172,6 +172,69 @@ header {
   padding-top: 14rem;
   margin: 2.5rem;
   margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-bottom: 8rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.project-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.card {
+  height: 20rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.status {
+  background-color: rgb(211, 99, 71);
+  width: 0.4rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.announcment {
+  margin-bottom: 2rem;
+}
+
+.announcments-panel {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 14rem;
+}
+
+.announcment-card {
+  height: 7rem;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trending-wrapper {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.trending-card {
+  padding: 1rem;
 }
 
 /* media query to change .interact-buttons to flex-direction column */
@@ -200,5 +263,11 @@ header {
 
   #nav-icon {
     padding: 0rem;
+  }
+
+  .project-panel {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
