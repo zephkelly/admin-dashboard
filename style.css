@@ -41,13 +41,13 @@ nav a {
   color: white;
   margin: 0rem;
   font-family: "Roboto", sans-serif;
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 #nav-icon {
   color: white;
   font-size: 3rem;
-  padding-right: 1rem;
+  padding-right: 0.8vw;
 }
 
 main {
@@ -188,5 +188,17 @@ header {
 
   .btn:last-of-type {
     margin-right: -6%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  #nav-icon {
+    padding: 0rem;
   }
 }
