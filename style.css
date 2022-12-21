@@ -51,7 +51,7 @@ nav a {
 
 main {
   margin-left: 20vw;
-  background-color: rgb(217, 217, 217);
+  background-color: rgb(241, 241, 241);
 }
 
 header {
@@ -169,7 +169,7 @@ header {
 }
 
 .dashboard {
-  padding-top: 14rem;
+  padding-top: 13rem;
   margin: 2.5rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -217,7 +217,7 @@ header {
   grid-template-rows: 1fr 1fr;
   border-radius: 0.5rem;
   background-color: white;
-  width: 14rem;
+  width: 100%;
 }
 
 .announcment-card {
